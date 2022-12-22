@@ -36,8 +36,8 @@
 # print(max(tup))
 # typ_copy = reversed(tup)
 # print(tup[-2:])
-a = int(input('Число:'))
-b = int(input('Число:'))
+# a = int(input('Число:'))
+# b = int(input('Число:'))
 
 
 

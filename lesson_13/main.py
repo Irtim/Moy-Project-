@@ -67,20 +67,20 @@
 # print(inter1)
 # print(sorted(inter))
 # 3 задача
-set1 = set()
-insert = ''
-while insert != 'end':
-    insert = input('Ввод: ')
-    if insert.lstrip('-').isdigit():
-        if insert not in set1:
-            print('❌ HET')
-            set1.add(insert)
-        else:
-            print('ДА ✅')
-    elif insert == 'end':
-        break
-    else:
-        print('Число хочу❗❗')
+# set1 = set()
+# insert = ''
+# while insert != 'end':
+#     insert = input('Ввод: ')
+#     if insert.lstrip('-').isdigit():
+#         if insert not in set1:
+#             print('❌ HET')
+#             set1.add(insert)
+#         else:
+#             print('ДА ✅')
+#     elif insert == 'end':
+#         break
+#     else:
+#         print('Число хочу❗❗')
 
 
 
