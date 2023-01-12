@@ -31,21 +31,21 @@
 # print(sloj)
 
 # 3 Задач
-die_sides = 6
-die_count = 2
-d = {}
-
-for first in range(1, die_sides + 1):
-    for second in range(1, die_sides + 1):
-        if first + second not in d:
-            d[first + second] = [(first, second)]
-        else:
-            d[first+second].append((first, second))
-
-
-# вывод
-for tadjikistan in d:
-    print(f'{tadjikistan}: {d[tadjikistan]}')
+# die_sides = 6
+# die_count = 2
+# d = {}
+#
+# for first in range(1, die_sides + 1):
+#     for second in range(1, die_sides + 1):
+#         if first + second not in d:
+#             d[first + second] = [(first, second)]
+#         else:
+#             d[first+second].append((first, second))
+#
+#
+# # вывод
+# for tadjikistan in d:
+#     print(f'{tadjikistan}: {d[tadjikistan]}')
 
 
 
