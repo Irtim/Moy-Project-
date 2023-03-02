@@ -13,7 +13,7 @@
 # print(d)
 
 # ФУНКЦИИ
-# def hellow_orld(): # объявление функции
+# def hellow_world(): # объявление функции
 #      print('Hello world')
 #
 # hellow_orld() # вызов функции
