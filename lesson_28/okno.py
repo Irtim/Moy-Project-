@@ -29,30 +29,30 @@ import tkinter as tk
 #
 #
 # window.mainloop()
-def snow_message():
-    message = ent.get()
-    ent.delete(0, 'end')
-    massage = txt.get()
-    txt.delete(0.0 , 'end')
+# def snow_message():
+#     message = ent.get()
+#     ent.delete(0, 'end')
+#     massage = txt.get()
+#     txt.delete(0.0 , 'end')
 
-window = tk.Tk()
-window.geometry('400x500')
-
-add = tk.Label(window, text='Вад адрес:', font='Verdana 18 bold italic', fg='white', bg='lightblue', width= 50)
-add.pack()
-
-ent = tk.Entry(window , bd=10, width= 30)
-ent.pack()
-
-com = tk.Label(window, text='Коментарий:', font='Verdena 18 bold italic')
-com.pack()
-
-
-txt = tk.Text(window, width=20, height= 5)
-txt.pack()
-
-btn = tk.Button(window, text='отправить', fg='White', bg='lightblue', font='Verdana 18 bold italic',command = snow_message)
-btn.pack()
-
-window.configure(background='grey')
-window.mainloop()
+# window = tk.Tk()
+# window.geometry('400x500')
+#
+# add = tk.Label(window, text='Вад адрес:', font='Verdana 18 bold italic', fg='white', bg='lightblue', width= 50)
+# add.pack()
+#
+# ent = tk.Entry(window , bd=10, width= 30)
+# ent.pack()
+#
+# com = tk.Label(window, text='Коментарий:', font='Verdena 18 bold italic')
+# com.pack()
+#
+#
+# txt = tk.Text(window, width=20, height= 5)
+# txt.pack()
+#
+# btn = tk.Button(window, text='отправить', fg='White', bg='lightblue', font='Verdana 18 bold italic',command = snow_message)
+# btn.pack()
+#
+# window.configure(background='grey')
+# window.mainloop()
